@@ -33,6 +33,6 @@ App::uses('Controller', 'Controller');
 class AppController extends Controller {
 	public $components = array ('DebugKit.Toolbar','Session');
 	public $helpers = array ('Html','Form','Session');
-	public $layout = 'new_theme';
-	public $theme = 'NewTheme';
+	//public $layout = 'new_theme';
+	//public $theme = 'NewTheme';
 }
